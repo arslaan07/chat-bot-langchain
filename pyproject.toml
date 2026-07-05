@@ -1,0 +1,23 @@
+[project]
+name = "gen-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "google-generativeai>=0.8.6",
+    "groq>=1.0.0",
+    "langchain[huggingface]>=0.3.30",
+    "langchain-community>=0.3.31",
+    "langchain-core>=0.3.86",
+    "langchain-google-genai>=2.0.10",
+    "langchain-huggingface>=0.3.1",
+    "langchain-mistralai>=0.2.12",
+    "langchain-openai>=0.3.35",
+    "langchain-xai>=0.2.5",
+    "mistralai>=1.10.0",
+    "openai>=2.44.0",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.50.0",
+    "langchain-nvidia-ai-endpoints>=0.3.19",
+]
