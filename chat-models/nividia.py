@@ -2,7 +2,7 @@ from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langchain_core.messages import SystemMessage, HumanMessage
 model = ChatNVIDIA(
   model="z-ai/glm-5.2",
-  api_key="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", 
+  api_key="", 
   temperature=1,
   top_p=1,
   seed=42,
